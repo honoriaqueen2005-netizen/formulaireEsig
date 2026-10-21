@@ -1,0 +1,68 @@
+body{
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background: linear-gradient(to bottom, blue, white );
+}
+h1{
+    color: blue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: underline;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+section{
+background-color: white;
+justify-content: space-between;
+height: 50vh;
+width: 40%;
+box-shadow: 10px 10px 10px 10px;
+
+}
+button{
+    height: 6vh;
+    width: 90%;
+    flex-direction: column;
+    border-radius: 1vh;
+    margin: 3vh;
+    cursor: pointer;
+    font-size: 3vh;
+    
+    
+
+}
+form{
+    flex-direction: column;
+    gap: 10px;
+    
+}
+form input{
+    flex-direction: column;
+    height: 5vh;
+    width: 90%;
+    margin: 3vh;
+    border-radius: 1vh;
+    margin-top: 0;
+    border: 1px solid gray; 
+    
+    
+}
+a{
+    text-decoration: none;
+    color: gray;
+    font-size: 4vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+button:hover{
+    box-shadow: inset .5px .5px .5px .5px rgb(112, 219, 148);
+     background-color: blue;
+}
+input:hover{
+  box-shadow: inset .5px .5px .5px .5px rgb(112, 219, 148);  
+  }
+  label{
+    margin-left: 3vh;
+  }

@@ -1,0 +1,70 @@
+body{
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background: linear-gradient(to bottom, blue, white );
+}
+h1{
+    color: blue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: underline;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+section{
+    background-color: white;
+justify-content: space-between;
+height: 60vh;
+width: 40%;
+border: 2px solid blue;
+border-radius: 2vh;
+}
+form{
+    flex-direction: column;
+    gap: 10px;
+    
+}
+form input{
+    flex-direction: column;
+    height: 5vh;
+    width: 90%;
+    margin: 3vh;
+    border-radius: 1vh;
+    margin-top: 0;
+    border: 1px solid gray;
+    box-shadow: inset .5px .5px .5px .5px rgb(112, 137, 219);
+    box-shadow: -2px -2px 7px white,
+                -2px -2px 7px black;
+    }
+    form input[type="submit"]{
+        margin-top: 4vh;
+    }
+form input[type="submit"]:hover{
+box-shadow: inset .5px .5px .5px .5px rgb(112, 219, 148);
+ background-color: green;
+ margin-top: 4vh;
+ cursor: pointer;
+}
+input:hover{
+    
+        box-shadow: inset .5px .5px .5px .5px rgb(112, 112, 219);
+}
+label{
+    margin-left: 3vh;
+}
+select{
+    width: 90%;
+    height: 5vh;
+   
+    margin: 3vh;
+    box-shadow: -2px -2px 7px white,
+                -2px -2px 7px black;
+    font-size: 16px;
+    border: 1px solid grey;
+    border-radius: 1vh;
+    margin-top: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
